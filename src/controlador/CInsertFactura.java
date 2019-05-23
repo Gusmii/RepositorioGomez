@@ -60,6 +60,7 @@ public class CInsertFactura extends HttpServlet {
 		ProductoModel myProduct = new ProductoModel();
 		int id=0;
 		int pruebaaa;
+		int pruebaaaa2;
 		
 		
 		
