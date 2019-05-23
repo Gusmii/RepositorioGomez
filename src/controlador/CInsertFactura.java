@@ -59,7 +59,7 @@ public class CInsertFactura extends HttpServlet {
 		FacturaModel myFactura = new FacturaModel();
 		ProductoModel myProduct = new ProductoModel();
 		int id=0;
-		
+		int pruebaaa;
 		
 		
 		
@@ -102,8 +102,8 @@ public class CInsertFactura extends HttpServlet {
 				}
 			}
 		}
-		myFactura.setApellidos(Apellidos);
-		myFactura.setDireccion(Direccion);
+		myFactura.setApellidos(Apellidos); //Esto es una prueba 
+		myFactura.setDireccion(Direccion); 
 		myFactura.setNombre(Nombre);
 		myFactura.setTarjetaCredito(TarjetaCredito);
 		myFactura.setTelefono(Telefono);
